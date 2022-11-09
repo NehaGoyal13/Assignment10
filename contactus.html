@@ -14,11 +14,8 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.css">
-	
-	
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>	
-	
 	<script src="js/jquery.mobilemenu.js"></script>
 	<script>
 		$(document).ready(function(){
@@ -27,7 +24,8 @@
 			$('input[type="radio"]').checkboxradio();
 			$('input[type="checkbox"]').checkboxradio();
 			$('select[name="companysize"]').selectmenu();
-			$('select[name="hearaboutus]').button();
+			$('input[type="submit"]').button();
+			
 		});
 	</script>
 </head>
@@ -99,7 +97,9 @@
 
 			    Questions or comments for our sales representatives?
 			    <textarea name="questions" size="30" rows="5"></textarea>
+
 			    <input type="submit" name="submit" value="Submit Now">
+			
 		    	</fieldset>
 			</form>
 	    </section>
